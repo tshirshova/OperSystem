@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 199
-  Top = 191
+  Left = 203
+  Top = 171
   Width = 870
   Height = 567
   Caption = 'Form1'
@@ -43,22 +43,12 @@ object Form1: TForm1
       ItemHeight = 13
       TabOrder = 0
     end
-    object DirectoryListBox1: TDirectoryListBox
-      Left = 8
-      Top = 48
-      Width = 193
-      Height = 113
-      FileList = FileListBox1
-      ItemHeight = 16
-      TabOrder = 1
-    end
     object DriveComboBox1: TDriveComboBox
       Left = 8
       Top = 24
       Width = 193
       Height = 19
-      DirList = DirectoryListBox1
-      TabOrder = 2
+      TabOrder = 1
     end
     object FilterComboBox1: TFilterComboBox
       Left = 8
@@ -66,7 +56,7 @@ object Form1: TForm1
       Width = 193
       Height = 21
       FileList = FileListBox1
-      TabOrder = 3
+      TabOrder = 2
     end
   end
   object Panel2: TPanel
@@ -154,5 +144,80 @@ object Form1: TForm1
     Caption = #1050#1086#1087#1080#1088#1086#1074#1072#1090#1100
     TabOrder = 3
     OnClick = Button3Click
+  end
+  object Panel3: TPanel
+    Left = 448
+    Top = 8
+    Width = 201
+    Height = 345
+    Caption = 'Panel3'
+    Color = clHighlight
+    TabOrder = 4
+    object Label3: TLabel
+      Left = 8
+      Top = 0
+      Width = 90
+      Height = 20
+      Caption = #1047#1072#1076#1072#1085#1080#1077' 3'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWhite
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold, fsUnderline]
+      ParentFont = False
+    end
+    object Button4: TButton
+      Left = 8
+      Top = 304
+      Width = 89
+      Height = 33
+      Cursor = crHandPoint
+      Caption = #1057#1086#1079#1076#1072#1090#1100' '#1087#1072#1087#1082#1091
+      TabOrder = 0
+      OnClick = Button4Click
+    end
+    object FileListBox3: TFileListBox
+      Left = 8
+      Top = 168
+      Width = 185
+      Height = 97
+      ItemHeight = 13
+      TabOrder = 1
+    end
+    object DirectoryListBox3: TDirectoryListBox
+      Left = 8
+      Top = 48
+      Width = 185
+      Height = 113
+      FileList = FileListBox3
+      ItemHeight = 16
+      TabOrder = 2
+    end
+    object DriveComboBox3: TDriveComboBox
+      Left = 8
+      Top = 24
+      Width = 185
+      Height = 19
+      DirList = DirectoryListBox3
+      TabOrder = 3
+    end
+    object FilterComboBox3: TFilterComboBox
+      Left = 8
+      Top = 272
+      Width = 185
+      Height = 21
+      FileList = FileListBox3
+      TabOrder = 4
+    end
+    object Button5: TButton
+      Left = 104
+      Top = 304
+      Width = 89
+      Height = 33
+      Cursor = crHandPoint
+      Caption = #1057#1086#1079#1076#1072#1090#1100' '#1092#1072#1081#1083
+      TabOrder = 5
+      OnClick = Button5Click
+    end
   end
 end

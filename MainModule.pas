@@ -10,7 +10,6 @@ type
   TForm1 = class(TForm)
     Panel1: TPanel;
     FileListBox1: TFileListBox;
-    DirectoryListBox1: TDirectoryListBox;
     DriveComboBox1: TDriveComboBox;
     FilterComboBox1: TFilterComboBox;
     Panel2: TPanel;
@@ -23,10 +22,20 @@ type
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
+    Panel3: TPanel;
+    Button4: TButton;
+    Label3: TLabel;
+    FileListBox3: TFileListBox;
+    DirectoryListBox3: TDirectoryListBox;
+    DriveComboBox3: TDriveComboBox;
+    FilterComboBox3: TFilterComboBox;
+    Button5: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure DirectoryListBox2Change(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -63,6 +72,21 @@ end;
 procedure TForm1.Button3Click(Sender: TObject);
 begin
   copyfile(pchar(b),pchar(d), true);
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+  createdir('Новая папка');
+  showmessage('Новая папка создана');
+end;
+
+procedure TForm1.Button5Click(Sender: TObject);
+var
+  e: TextFile;
+begin
+  assignfile (e, 'NewFile.txt');
+  rewrite(e);
+  showmessage('Новый файл создан')
 end;
 
 end.

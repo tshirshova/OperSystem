@@ -1,20 +1,67 @@
 [Closed Files]
 File_0=SourceModule,'D:\УЧЁБА\Операционные системы\Prog\Prog\Папкааа\Unit1.pas',0,1,63,32,87,0,0
-File_1=SourceModule,'D:\ПРОГРАММИРОВАНИЕ\1\MainModule.pas',0,1,47,40,42,1,1
-File_2=SourceModule,'D:\УЧЁБА\Операционные системы\Prog\Prog\Папкааа\Unit1.dfm',0,1,113,1,1,0,0
-File_3=SourceModule,'D:\УЧЁБА\Операционные системы\Операционные системы\Unit1.dfm',0,1,1,1,1,0,0
+File_1=SourceModule,'D:\УЧЁБА\Операционные системы\Prog\Prog\Папкааа\Unit1.dfm',0,1,113,1,1,0,0
+File_2=SourceModule,'D:\УЧЁБА\Операционные системы\Операционные системы\Unit1.dfm',0,1,1,1,1,0,0
 
 [Modules]
-Count=0
-EditWindowCount=0
+Module0=D:\ПРОГРАММИРОВАНИЕ\1\MainModule.pas
+Module1=D:\ПРОГРАММИРОВАНИЕ\1\Laba1Shirshova.dpr
+Count=2
+EditWindowCount=1
+
+[D:\ПРОГРАММИРОВАНИЕ\1\MainModule.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[D:\ПРОГРАММИРОВАНИЕ\1\Laba1Shirshova.dpr]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
 
 [C:\Program Files (x86)\Borland\Delphi7\Projects\ProjectGroup1.bpg]
 FormState=0
 FormOnTop=0
 
-[D:\ПРОГРАММИРОВАНИЕ\1\Laba1Shirshova.dpr]
-FormState=0
-FormOnTop=0
+[EditWindow0]
+ViewCount=2
+CurrentView=1
+View0=0
+View1=1
+CodeExplorer=CodeExplorer@EditWindow0
+MessageView=MessageView@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=224
+Top=163
+Width=868
+Height=646
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=852
+ClientHeight=608
+LeftPanelSize=140
+LeftPanelClients=CodeExplorer@EditWindow0
+LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=0
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=00000400010000000B0000004D65737361676556696577000000000000000000000000000000000001000000000000000000000000FFFFFFFF
+
+[View0]
+Module=D:\ПРОГРАММИРОВАНИЕ\1\Laba1Shirshova.dpr
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View1]
+Module=D:\ПРОГРАММИРОВАНИЕ\1\MainModule.pas
+CursorX=28
+CursorY=65
+TopLine=39
+LeftCol=1
 
 [Watches]
 Count=0
@@ -100,7 +147,7 @@ LRDockWidth=190
 Dockable=1
 SplitPos=85
 ArrangeBy=Name
-SelectedItem=
+SelectedItem=Caption
 ExpandedItems=Directory
 HiddenCategories=
 
@@ -143,6 +190,38 @@ Column4Width=70
 SortOrder=4
 ShowHints=1
 ShowChecked=1
+
+[CodeExplorer@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=12
+Width=140
+Height=596
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=140
+ClientHeight=596
+TBDockHeight=305
+LRDockWidth=140
+Dockable=1
+
+[MessageView@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=12
+Top=0
+Width=840
+Height=85
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=840
+ClientHeight=85
+TBDockHeight=85
+LRDockWidth=443
+Dockable=1
 
 [DockHosts]
 DockHostCount=0
